@@ -112,7 +112,7 @@ From the Radio Unit (RU) and Radio Frequency (RF) engineering perspective, L1 br
 * **RF Filtering:** Cavity or BAW/SAW filters suppress out-of-band spurious emissions and Adjacent Channel Leakage Ratio (`ACLR`) to meet regulatory masks (3GPP / FCC / ETSI).
 
 ### 3.5 Antenna Arrays & Analog/Hybrid Beamforming
-* **Massive MIMO Arrays:** Uses 32T32R or 64T64R cross-polarized antenna elements integrated into Active Antenna Units (`AAUs`).
+* **Massive MIMO Arrays:** Uses 32T32R or 64T64R cross-polarized antenna elements integrated into Active Antenna Units (`AAUs`). Also LAA (Large Antenna Arrays) with > 1K antenna elements.
 * **Beamforming Architectures:**
   * **Digital Beamforming:** Weights applied in baseband per RF chain (flexible multi-beam, high power/cost).
   * **Analog Beamforming:** Phase shifters and variable gain amplifiers applied at RF (common in mmWave FR2 to minimize transceiver chains).
